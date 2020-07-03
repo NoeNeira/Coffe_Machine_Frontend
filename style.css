@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.cover {
+    height: 475px;
+    color: whitesmoke;
+    background-image: url("portada2_1280x853.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0,0,0,0.5);
+    background-blend-mode: darkenS;
+
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px --1px rgba(0, 0, 0, 0.103), 0 2px 4px -1px rgba(0, 0, 0, 0.123)
+} 
+
+.card-title{
+    min-height: 2.5rem;
+}
+
+.card-text{
+    min-height: 14rem;
+}

@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <h1>Hola Coffe Machine!</h1>
-    <button onclick="saludar('Capucchino')">Capucchino</button>
-    <button onclick="saludar('Expresso')">Expresso</button>
-    <button onclick="saludar('Latte')"> Latte</button>
 
-    <script src="code.js"></script>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="logocoffeecup.svg" width="30" height="30" class="d-inline-block align-top" alt="logocoffeecup"
+                    loading="lazy">
+            </a>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>Coffe Machine</h1>
+            <h2>¿Qué te gustaría tomar hoy?</h2>
+        </div>
+    </header>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+                    <div class="card">
+                        <div title="Imagen de taza de café expresso" class="cover cover-small"
+                            style="background-image: url(tazadecafeexpresso800x800.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Expresso</h5>
+                            <p class="card-text">Se trata de un café negro fuerte logrado a través del agua hirviendo a
+                                alta
+                                presión que atraviesa los granos de café. De todos los tipos de café es el
+                                de
+                                más rápida preparación y sabor concentrado.</p>
+                            <a href="#" class="btn btn-primary">Probalo acá</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+                    <div class="card">
+                        <div title="Imagen de taza de café cappuccino" class="cover cover-small"
+                            style="background-image: url(tazadecappuccino800x651.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Un verdadero cappuccino es una combinación de partes iguales de
+                                expresso,
+                                leche caliente y espuma de leche. Esta bebida de lujo, si se hace correctamente, puede
+                                funcionar incluso como un postre por sus sabores variados y su riqueza.</p>
+                            <a href="#" class="btn btn-primary">Probalo acá</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+                    <div class="card">
+                        <div title="Imagen de taza de café latte" class="cover cover-small"
+                            style="background-image:url(tazadecafelatte800x800.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">La preparación es lo que distingue a esta bebida, pues su proceso puede
+                                considerar todo un arte, es un preparado a base de café espresso y leche al vapor.</p>
+                            <a href="#" class="btn btn-primary">Probalo acá</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="code.js"></script>
+
 </html>
