@@ -15,42 +15,51 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-            <img src="logos&pics/logocoffeecup.svg" width="32" height="32" class="d-inline-block align-left"
-                    alt="logocoffeecup" loading="lazy">
-                </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Variedades  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cafeteras  </a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Molienda  </a>
-                </li>
-              </ul>
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">
+                    <img src="logos&pics/logocoffeecup.svg" width="32" height="32" class="d-inline-block align-left" alt="logocoffeecup" loading="lazy">
+                        </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Variedades  </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Cafeteras  </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Molienda  </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                <div class="cover d-flex justify-content-center align-items-center flex-column">
+                    <h1>¿Qué te gustaría tomar hoy?</h1>
+                </div>
             </div>
-          </nav>
-        <div class="cover d-flex justify-content-center align-items-center flex-column">
-            <h1>Coffe Machine</h1>
-            <h2>¿Qué te gustaría tomar hoy?</h2>
         </div>
     </header>
     <section>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 ml-5">
+            <div class="row">
+            <div class="col-12 p-0 mb-0" >
+                <h3>Variedades</h3>
+            </div>
+        </div>
+        </div>
+        <div class="container mb-5">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
                     <div class="card coffee-type-card">
                         <div title="Imagen de taza de café expresso" class="cover cover-small"
                             style="background-image: url('logos&pics/tazadecafeexpresso800x800.jpg');"></div>
                         <div class="card-body">
-                            <h5 class="card-title">Express</h5>
+                            <h5 class="card-title">Espresso</h5>
                             <p class="card-text">Se trata de un café negro fuerte logrado a través del agua hirviendo a
                                 alta
                                 presión que atraviesa los granos de café. De todos los tipos de café es el
@@ -65,7 +74,7 @@
                             style="background-image: url(logos&pics/tazadecappuccino800x651.jpg);">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Cappuccino</h5>
+                            <h5 class="card-title">Capuccino</h5>
                             <p class="card-text">Un verdadero cappuccino es una combinación de partes iguales de
                                 expresso,
                                 leche caliente y espuma de leche. Esta bebida de lujo, si se hace correctamente, puede
@@ -85,12 +94,70 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+                    <div class="card coffee-type-card">
+                        <div title="Imagen de taza de café helado" class="cover cover-small"
+                            style="background-image:url(logos&pics/tazadecafeamericano.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">El origen de su nombre no está del todo establecido, sin embargo la creencia es que este surge como una burla hacia los americanos que, al probar su espresso, tenían que diluirlo debido a su sabor tan fuerte.
+                            Es que, de hecho, este tipo de café es en realidad un espresso al cual se añade a una taza de agua caliente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+                    <div class="card coffee-type-card">
+                        <div title="Imagen de taza de café helado" class="cover cover-small"
+                            style="background-image:url(logos&pics/tazadecafemacchiato.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Macchiato</h5>
+                            <p class="card-text">Su nombre proviene del italiano y se traduce como café cortado. Como los demás tipos de café suele presentar muchas variaciones dependiendo de cada barista o de cada zona, pero la versión más clásica está compuesta por la combinación de espresso, caramelo y leche al vapor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
+                    <div class="card coffee-type-card">
+                        <div title="Imagen de taza de café helado" class="cover cover-small"
+                            style="background-image:url(logos&pics/tazadecafeiced.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cold Brew</h5>
+                            <p class="card-text">No es más que café infusionado en frío. Esta característica genera que las propiedades organolépticas del café se conserven junto a todos sus nutrientes. El resultado es una bebida con cuerpo y llena de sabor.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section>
+        <div class="container mt-5 ml-5">
+            <div class="row">
+            <div class="col-12 p-0 mb-0 " >
+                <h3>Cafeteras</h3>
+            </div>
+        </div>
+        </div>
+        <div class="container justify-content-center mt-5 mb-5">
+            <div class="row">
+                <div class="col">
+                    <img src="logos&pics/french_press.jpg" alt="Prensa francesa" height="350" width=""
+                    class="float-left ml-4 mr-4">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, exercitationem eaque sunt doloremque maxime quis laboriosam minima sit aliquid harum qui. Est, deleniti commodi? Ratione atque officiis delectus excepturi et!
+                        Quod temporibus distinctio dicta nisi iusto cum deleniti saepe fugiat magni modi unde officia facere, ipsa nobis nam amet quaerat dignissimos sit quia atque minima possimus? Pariatur sint eligendi voluptates.
+                        Deleniti, facere quidem iusto perferendis consequuntur rerum dolor maxime, quis nostrum, culpa nulla. Nemo culpa, adipisci laborum vitae exercitationem tempore. Cumque quisquam dolorum at velit saepe maiores suscipit modi voluptatem.
+                        Quaerat doloribus adipisci voluptates soluta nam! Iste suscipit dicta fugit amet nisi alias commodi eveniet, atque praesentium libero! Sunt eius necessitatibus numquam consectetur inventore nostrum atque esse sit explicabo similique.
+                        Aliquid nisi doloribus impedit nihil laboriosam, fugiat aperiam quasi architecto maxime natus saepe nulla nobis id pariatur aliquam labore enim, omnis iusto, temporibus at eos? Voluptas quos vero consequuntur libero.
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="container mt-5 mb-5">
-            <img src="logos&pics/barista800x533.jpg" alt="Barista preparando un café" height="250"
+            <div class="row">
+                <div class="col">
+            <img src="logos&pics/chemex.jpg" alt="Cafetera Chemex" height="350"
                 class="float-left ml-4 mr-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos non quasi ex modi, eos minus error
                 necessitatibus fugiat nostrum repellendus doloribus pariatur possimus autem quidem voluptatibus totam
@@ -98,10 +165,42 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quisquam iusto dicta pariatur eaque
                 laborum eligendi numquam aliquam nam voluptas maxime exercitationem voluptate, quaerat, id laboriosam
                 magni animi magnam repellat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis minus ex animi autem, et quidem
-                quibusdam numquam. Nemo ullam ratione nobis facilis quia non corrupti praesentium eligendi, optio rerum.
-                Tenetur?</p>
         </div>
+    </div>
+</div>
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col">
+    <img src="logos&pics/italiana.jpg" alt="Cafetera Italiana, Moka" height="350" width="233.27"
+        class="float-left ml-4 mr-4">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos non quasi ex modi, eos minus error
+        necessitatibus fugiat nostrum repellendus doloribus pariatur possimus autem quidem voluptatibus totam
+        nam dolorum rem!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quisquam iusto dicta pariatur eaque
+        laborum eligendi numquam aliquam nam voluptas maxime exercitationem voluptate, quaerat, id laboriosam
+        magni animi magnam repellat.</p>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col">
+<div class="container mt-5 mb-5">
+    <img src="logos&pics/aeropress.jpg" alt="Cafetera Aereopress" height="350" width="233.27"
+        class="float-left ml-4 mr-4">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos non quasi ex modi, eos minus error
+        necessitatibus fugiat nostrum repellendus doloribus pariatur possimus autem quidem voluptatibus totam
+        nam dolorum rem!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quisquam iusto dicta pariatur eaque
+        laborum eligendi numquam aliquam nam voluptas maxime exercitationem voluptate, quaerat, id laboriosam
+        magni animi magnam repellat.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quibusdam vitae ab reiciendis voluptatum dignissimos quasi rerum iure doloremque cum alias non, eos rem magnam magni dolor quisquam tempore porro.
+            Laudantium, corrupti amet! Dignissimos quaerat odit totam quis labore accusantium ratione delectus et tempore earum consequuntur ea dolorum similique perspiciatis maxime sed cumque aliquid, sint aut. Non assumenda quasi fugit.
+            Hic sed beatae earum eligendi quia autem numquam excepturi voluptatem debitis consequatur soluta, inventore totam obcaecati. Id doloribus tempora, deserunt laudantium velit officia tempore tenetur suscipit voluptatibus. Ut, perferendis in.
+        </p>
+</div>
+</div>
+</div>
     </section>
     <section>
         <div class="container mt-5 mb-5">
@@ -112,7 +211,7 @@
                             style="background-image: url('logos&pics/tira_expresso.jpg');">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Express</h5>
+                            <h5 class="card-title">Espresso</h5>
                             <span class="badge badge-info">$2USD</span>
                         </div>
                     </div>
@@ -122,7 +221,7 @@
                             style="background-image: url('logos&pics/tira_cappu.jpg');">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Cappuccino</h5>
+                            <h5 class="card-title">Capuccino</h5>
                             <span class="badge badge-info">$2USD</span>
                         </div>
                     </div>
